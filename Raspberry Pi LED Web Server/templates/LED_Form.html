@@ -1,0 +1,70 @@
+<!--	LED_Form.html
+-	@see LED_Webserver.py
+-	@authors	Jon Bjerke <jon-bjerke@uiowa.edu>
+-			Natasha Dunkel <natasha-dunkel@uiowa.edu>
+-
+-	An interface used to send request to LED_Webserver to change the state
+-	of the LED lights connected to the breadboard.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+-	Imports for jquery which makes this interface smart phone friendly
+-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+
+<div data-role="page" >
+  <div data-role="main" class="ui-content">
+    <form method="post" action="/">
+
+	<!--	A header with authors for the interface	 -->
+      
+	  <h3><strong>Bjerke and Dunkel's Network Assignment</strong></h3>
+
+	<!--	A header labeling the buttons as all controlling the green button.
+	-	There are three buttons controlling the LED brightness labelled high,
+	-	low, and off.
+	-->
+	    
+	 <h3><strong>Green LED Control</strong></h3>
+	 <button name="LEDstate" align="center" data-inline="true" value="Green On High"> LED ON HIGH</button>
+	 <button name="LEDstate" align="center" data-inline="true" value="Green On Low"> LED ON LOW</button>
+     	 <button name="LEDstate" align="center" data-inline="true" value="Green Off"> LED OFF </button>
+
+	<!--	A header labeling the buttons as all controlling the yellow button.
+	-	There are three buttons controlling the LED brightness labelled high,
+	-	low, and off.
+	-->
+
+	 <h3><strong>Yellow LED Control</strong></h3>
+	 <button name="LEDstate" align="center" data-inline="true" value="Yellow On High"> LED ON HIGH</button>
+	 <button name="LEDstate" align="center" data-inline="true" value="Yellow On Low"> LED ON LOW</button>
+     	 <button name="LEDstate" align="center" data-inline="true" value="Yellow Off"> LED OFF </button>
+
+	<!--	A header labeling the buttons as all controlling the red button.
+	-	There are three buttons controlling the LED brightness labelled high,
+	-	low, and off.
+	-->
+	 
+	 <h3><strong>Red LED Control</strong></h3>
+	 <button name="LEDstate" align="center" data-inline="true" value="Red On High"> LED ON HIGH</button>
+	 <button name="LEDstate" align="center" data-inline="true" value="Red On Low"> LED ON LOW</button>
+     	 <button name="LEDstate" align="center" data-inline="true" value="Red Off"> LED OFF </button>
+	    
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
