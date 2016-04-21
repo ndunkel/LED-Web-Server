@@ -77,4 +77,4 @@ When you push the buttons on the phone you get the following messages in the ter
 
 And the changes take place on the LEDs.
 
-<center>![](http://i.imgur.com/aV17fqO.jpg)</center>
+<center>![](http://i.imgur.com/rrYjLpB.jpg)</center>
