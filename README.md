@@ -32,7 +32,7 @@
 	* Resistors (220 Ohms)
 	* Female to Male wires to go from GPIO to breadboard
 
-<center>![](http://i.imgur.com/DufTMVQ.jpg)</center>
+![](http://i.imgur.com/DufTMVQ.jpg)
 
 There are two different versions to get pin numbers and you have to specify which one you're using. Below are pictures of the two ways you can use. [Click here for more information](http://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering)
 
@@ -61,20 +61,20 @@ There are two different versions to get pin numbers and you have to specify whic
 
 The we ran the web server in the terminal:
 
-<center>![](http://i.imgur.com/exqjwHM.png)</center>
+![](http://i.imgur.com/exqjwHM.png)
 
 The IP address below is the phone connecting to the web server:
 
-<center>![](http://i.imgur.com/MBeUbx7.png)</center>
+![](http://i.imgur.com/MBeUbx7.png)		
 
 This is what the web server interface looks like on an iPhone:
 
-<center>![](http://i.imgur.com/A3HVPD1.jpg)</center>
+![](http://i.imgur.com/A3HVPD1.jpg)
 
 When you push the buttons on the phone you get the following messages in the terminal:
 
-<center>![](http://i.imgur.com/kCiEItw.png)</center>
+![](http://i.imgur.com/kCiEItw.png)
 
 And the changes take place on the LEDs.
 
-<center>![](http://i.imgur.com/rrYjLpB.jpg)</center>
+![](http://i.imgur.com/rrYjLpB.jpg)
